@@ -1,0 +1,124 @@
+* {
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3vw;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+body {
+    background-image: url("https://vk.com/sticker/1-895-512-9");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+table {
+    text-align: center;
+    vertical-align: middle;
+    font-family: Arial;
+    max-width: 100%;
+}
+
+td {
+    page-break-inside: avoid;
+    text-align: center;
+    font-size: 1vw;
+    min-width: 20%;
+    padding: 5px;
+}
+
+td b {
+    font-size: 2vw;
+}
+
+th {
+    font-size: 2vw;
+    padding: 5px;
+    background-color: #e8e8e8;
+    min-width: 20%;
+}
+
+img {
+    width: 55%;
+}
+
+.w {
+    text-align: right;
+    font-weight: normal;
+    font-size: 0.5vw;
+}
+
+.num {
+    text-align: left;
+    font-weight: normal;
+    font-size: 0.5vw;
+}
+
+.chalcogens {
+    background-color: #80c080;
+}
+
+.inertgase {
+    background-color: #c0ffff;
+}
+
+.alkali {
+    background-color: #ff6666;
+}
+
+.earthmetal {
+    background-color: #ffdead;
+}
+
+.metalloid {
+    background-color: #cccc99;
+}
+
+.transmetal {
+    background-color: #ffc0c0;
+}
+
+.posttrans {
+    background-color: #cccccc;
+}
+
+.nonmetal {
+    background-color: #e8e8e8;
+}
+
+.halogen {
+    background-color: #ffff99;
+}
+
+.lanthanoid {
+    background-color: #FFBFFF;
+}
+
+.actinoid {
+    background-color: #ef99cc;
+}
+
+.cats {
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+@media (max-width : 540px) {
+
+    table {
+        max-width: 100%;
+    }
+
+    td {
+        max-width: 10%;
+        padding: 0;
+    }
+
+    th {
+        padding: 0;
+        max-width: 10%;
+    }
+}
