@@ -1,0 +1,240 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    background-color: rgb(80, 80, 80);
+}
+
+.wrapper {
+    max-width: 1200px;
+    padding-bottom: 50px;
+}
+
+.block {
+    background-color: rgb(144, 144, 144);
+    box-shadow: 10px 10px 5px black;
+    border-radius: 10px;
+}
+
+.top {
+    width: 74%;
+    height: auto;
+    margin: auto;
+    margin-top: 1%;
+    padding: 1%;
+    position: relative;
+    z-index: 1;
+}
+
+.middle_container {
+    display: inline-block;
+    width: 70%;
+    height: 50%;
+    margin-left: 15%;;
+    margin-top: 2%
+}
+
+.left_block {
+    width: 8%;
+    height: auto;
+    padding: 1%;
+    float: left;
+    padding-bottom: 2%;
+}
+
+.mid_block {
+    width: 72%;
+    height: auto;
+    padding: 1%;
+    float: left;
+    margin-left: 3%;
+    z-index: 1;
+}
+.mid_block img, iframe {
+    width: 100%;
+    display: block;
+    margin: auto;
+    z-index: 2;
+    height: 100%;
+}
+
+.iframe_style {
+    height: 315px;
+    z-index: 1;
+}
+
+.iframe_adds {
+    margin-top: 0!important;
+}
+
+.right_block {
+    width: 8%;
+    height: auto;
+    padding: 1%;
+    float: right;
+    margin-left: 1%;
+    padding-bottom: 13%;
+}
+
+
+.left_block img, .right_block img {
+    display: block;
+    width: 60%;
+    margin-top: 10%;
+    border: 2px solid transparent;
+    padding: 2px;
+}
+
+.brick {
+    display: block;
+    margin-top: 10%;
+    width: 30% !important;
+    visibility: hidden;
+}
+
+.left_block img:hover, .right_block img:hover, #bricks:hover {
+    border: 2px solid red;
+}
+
+.green {
+    display: inline-block;
+    background-color: #98FB98;
+    width: 30%;
+    height: auto;
+    z-index: 4;
+    margin-top:-4%;
+    margin-left: 8%;
+    box-shadow: 10px 10px 5px black;
+    border-radius: 10px;
+    padding: 1% 5% 3% 1%;
+}
+
+.green a {
+    text-decoration: none;
+}
+
+.red_icon {
+    border: 2px solid red !important;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 10px;
+    background-color: #438643;
+    color: white;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+
+.button:hover {
+    background-color: #e8e110;
+}
+
+#big_word {
+    font-size: 2vw;
+    font-family: Georgia;
+}
+
+#underline {
+    text-shadow: 6px 6px 5px red;
+}
+
+#answer {
+    width: 70%;
+    height: 10%;
+    display: inline-block;
+    margin-top: 1%;
+    font-size: 0.8vw;
+}
+
+#bricks {
+    display: block;
+    border: 2px solid transparent;
+    background-image: url("resources/brick.jpg");
+    background-repeat: repeat;
+    background-size: 30%;
+    height: auto;
+}
+
+#logo {
+    display: inline-block;
+    border-radius: 10px;
+    width: 35%;
+}
+
+#reload {
+    width: 60%;
+    display: block;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+
+#close {
+    width: 60%;
+    display: block;
+    margin-top: 210%;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+
+#loupe {
+    width: 22%;
+    z-index: 2;
+    margin-left: 39%;
+    position: absolute;
+}
+
+#top_right {
+    height: auto;
+    display: inline-block;
+    float: right;
+    width: 3%;
+    border-radius: 10px;
+}
+
+#ikea {
+    width:10%;
+    height: 43px;
+    float: right;
+    margin-top: -22%;
+    margin-right: 57%;
+    position: relative;
+}
+
+#apple {
+    width:20%;
+    height: 43px;
+    float: right;
+    margin-top: -22%;
+    margin-right: 0%;
+    position: relative;
+}
+
+#bosh {
+    width: 10%;
+    height: 43px;
+    float: right;
+    margin-top: -30%;
+    margin-right: 68%;
+    position: relative;
+}
+
+#exporer {
+    width: 20%;
+    height: 43px;
+    float: right;
+    margin-top: -36%;
+    margin-right: 8%;
+    position: relative;
+}
+
+#back_btn {
+    width: 20%;
+    height: 43px;
+    float: right;
+    margin-top: -36%;
+    margin-right: 33%;
+    position: relative;
+}
