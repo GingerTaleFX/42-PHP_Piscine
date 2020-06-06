@@ -22,7 +22,7 @@ if ($_POST && $_POST["submit"] == "OK" && $_POST["submit"] && $_POST["login"] &&
     }
     else {
         $tmp["login"] = $_POST["login"];
-        $tmp["passwd"] = $_POST["passwd"];
+        $tmp["passwd"] = hash('whirlpool', $_POST["passwd"]);
         $passwd[] = $tmp;
         file_put_contents("../private/passwd", serialize($passwd));
         echo "OK\n";
