@@ -1,0 +1,13 @@
+<- Vertex ----------------------------------------------------------------------
+    The Vertex handle 3D vertexes;
+    Three coords, 1 homogenous parametrs, Color from class Color;
+
+    Constructing instance from 3 coords: 
+    new Vertex(array('x' => 1.0, 'y' => 0.0, 'z' => 0.0));
+    
+    Adding homogenous ('w') and color ('color') aswell:
+    new Vertex(array('x' => 1.0, 'y' => 0.0, 'z' => 0.0, 'w' => 2.0, 'color' => instanceofColor ));
+    Default 'w' = 1.0, 'color' = white;
+
+    Private attributes, you may use getter and setter;
+---------------------------------------------------------------------- Vertex ->
